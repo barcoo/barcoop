@@ -46,6 +46,9 @@ Style/GuardClause:
 Style/IndentHash:
   EnforcedStyle: consistent
 
+Style/IndentArray:
+  EnforcedStyle: consistent
+
 Metrics/ClassLength:
   Max: 200
 
