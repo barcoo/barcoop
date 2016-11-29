@@ -5,6 +5,13 @@
 
 AllCops:
   TargetRubyVersion: 2.3
+  Exclude:
+    - 'db/**/*'
+    - 'script/**/*'
+    - 'vendor/**/*'
+    - 'test/dummy/db/**/*'
+    - 'test/dummy/script/**/*'
+    - 'test/dummy/vendor/**/*'
 
 Rails:
   Enabled: true
