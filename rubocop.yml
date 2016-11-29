@@ -5,12 +5,15 @@
 
 AllCops:
   TargetRubyVersion: 2.3
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
   Exclude:
-    - 'db/schema.rb'
+    - 'db/**/*'
     - 'script/**/*'
-    - 'vendor/**/*.rb'
-    - 'test/dummy/db/schema.rb'
-    - 'test/dummy/vendor/**/*.rb'
+    - 'vendor/**/*'
+    - 'test/dummy/db/**/*'
+    - 'test/dummy/vendor/**/*'
 
 Rails:
   Enabled: true
