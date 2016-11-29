@@ -35,7 +35,7 @@ Metrics/AbcSize:
   # http://c2.com/cgi/wiki?AbcMetric
   Max: 50
   Exclude:
-    - 'test/**/*.rb' # ignore test methods which typically have high B count due to many asserts
+    - 'test/**/*_test.rb' # ignore test methods which typically have high B count due to many asserts
 
 Metrics/CyclomaticComplexity:
   # http://www.rubydoc.info/github/bbatsov/rubocop/Rubocop/Cop/Style/CyclomaticComplexity
