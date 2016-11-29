@@ -17,6 +17,10 @@ AllCops:
 
 Rails:
   Enabled: true
+ 
+# TODO: Enable after migration to Rails 5, as this is a Rails 5 only cop
+Rails/HttpPositionalArguments:
+  Enabled: false
 
 Documentation:
   Enabled: false
@@ -43,10 +47,14 @@ Metrics/AbcSize:
 Metrics/CyclomaticComplexity:
   # http://www.rubydoc.info/github/bbatsov/rubocop/Rubocop/Cop/Style/CyclomaticComplexity
   Max: 12
+  Exclude:
+    - 'test/**/*_test.rb'
 
 Metrics/PerceivedComplexity:
   # http://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Metrics/PerceivedComplexity
   Max: 13
+  Exclude:
+    - 'test/**/*_test.rb'
 
 Style/RedundantReturn:
   Enabled: false
