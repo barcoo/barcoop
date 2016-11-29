@@ -28,6 +28,8 @@ Metrics/AbcSize:
   # The ABC size is a calculated magnitude, so this number can be a Fixnum or a Float.
   # http://c2.com/cgi/wiki?AbcMetric
   Max: 50
+  Exclude:
+    - 'test/**/*' # ignore test methods which typically have high B count due to many asserts
 
 Metrics/CyclomaticComplexity:
   # http://www.rubydoc.info/github/bbatsov/rubocop/Rubocop/Cop/Style/CyclomaticComplexity
