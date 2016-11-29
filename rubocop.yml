@@ -6,14 +6,11 @@
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
-    - 'bin/*'
-    - 'db/**/*'
+    - 'db/schema.rb'
     - 'script/**/*'
-    - 'vendor/**/*'
-    - 'test/dummy/bin/*'
-    - 'test/dummy/db/**/*'
-    - 'test/dummy/script/**/*'
-    - 'test/dummy/vendor/**/*'
+    - 'vendor/**/*.rb'
+    - 'test/dummy/db/schema.rb'
+    - 'test/dummy/vendor/**/*.rb'
 
 Rails:
   Enabled: true
@@ -38,7 +35,7 @@ Metrics/AbcSize:
   # http://c2.com/cgi/wiki?AbcMetric
   Max: 50
   Exclude:
-    - 'test/**/*' # ignore test methods which typically have high B count due to many asserts
+    - 'test/**/*.rb' # ignore test methods which typically have high B count due to many asserts
 
 Metrics/CyclomaticComplexity:
   # http://www.rubydoc.info/github/bbatsov/rubocop/Rubocop/Cop/Style/CyclomaticComplexity
