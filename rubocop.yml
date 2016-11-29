@@ -6,9 +6,11 @@
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
+    - 'bin/**/*'
     - 'db/**/*'
     - 'script/**/*'
     - 'vendor/**/*'
+    - 'test/dummy/bin/**/*'
     - 'test/dummy/db/**/*'
     - 'test/dummy/script/**/*'
     - 'test/dummy/vendor/**/*'
