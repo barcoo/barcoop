@@ -17,10 +17,6 @@ AllCops:
 
 Rails:
   Enabled: true
- 
-# TODO: Enable after migration to Rails 5, as this is a Rails 5 only cop
-Rails/HttpPositionalArguments:
-  Enabled: false
 
 Documentation:
   Enabled: false
