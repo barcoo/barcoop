@@ -89,10 +89,10 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 
 Lint/EndAlignment:
-  AlignWith: variable
+  EnforcedStyleAlignWith: variable
 
 CaseIndentation:
-  IndentWhenRelativeTo: end
+  EnforcedStyle: end
   IndentOneStep: false
 
 Style/FrozenStringLiteralComment:
