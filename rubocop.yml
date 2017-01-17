@@ -86,7 +86,7 @@ Style/SingleLineBlockParams:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
-  Enabled: false
+  Enabled: true
 
 Lint/EndAlignment:
   EnforcedStyleAlignWith: variable
