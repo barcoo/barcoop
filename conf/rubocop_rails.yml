@@ -2,8 +2,8 @@ inherit_from:
   - rubocop.yml
 
 require:
-  - barcoop/cops/avoid_rails_env.rb
-  - barcoop/cops/avoid_fixtures.rb
+  - barcoop/cop/barcoo/avoid_rails_env.rb
+  - barcoop/cop/barcoo/avoid_fixtures.rb
 
 Rails:
   Enabled: true

@@ -4,7 +4,7 @@
 # for default configuration
 
 require:
-  - barcoop/cops/avoid_timeout.rb
+  - barcoop/cop/barcoo/avoid_timeout.rb
 
 AllCops:
   TargetRubyVersion: 2.3
