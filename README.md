@@ -1,5 +1,6 @@
+# Barcoop
+
 Barcoo's shared rubocop.yml config file
-====================
 
 ### Use
 
