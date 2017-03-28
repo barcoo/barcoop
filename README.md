@@ -24,6 +24,12 @@ inherit_gem:
   barcoop: conf/rubocop.yml
 ```
 
+If your project is a Rails app or engine, use  `rubocop_rails.yml`
+```yaml
+inherit_gem:
+  barcoop: conf/rubocop_rails.yml
+```
+
 ### Cops
 
 This gems provides the following cops:

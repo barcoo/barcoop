@@ -4,8 +4,6 @@
 # for default configuration
 
 require:
-  - barcoop/cops/avoid_rails_env.rb
-  - barcoop/cops/avoid_fixtures.rb
   - barcoop/cops/avoid_timeout.rb
 
 AllCops:
@@ -21,23 +19,18 @@ AllCops:
     - 'test/dummy/db/**/*'
     - 'test/dummy/vendor/**/*'
 
-Rails:
-  Enabled: true
 
 Documentation:
   Enabled: false
 
 Metrics/LineLength:
   Max: 200
-  # Enabled: false
 
 Metrics/MethodLength:
   Max: 40
-  # Enabled: false
 
 Metrics/ModuleLength:
   Max: 500
-  # Enabled: false
 
 Metrics/AbcSize:
   # The ABC size is a calculated magnitude, so this number can be a Fixnum or a Float.
