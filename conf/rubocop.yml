@@ -8,17 +8,12 @@ require:
 
 AllCops:
   TargetRubyVersion: 2.3
-  Include:
-    - '**/Rakefile'
-    - '**/config.ru'
-    - '**/Gemfile'
   Exclude:
     - 'db/**/*'
     - 'script/**/*'
     - 'vendor/**/*'
     - 'test/dummy/db/**/*'
     - 'test/dummy/vendor/**/*'
-
 
 Documentation:
   Enabled: false
