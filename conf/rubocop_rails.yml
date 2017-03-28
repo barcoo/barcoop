@@ -7,3 +7,8 @@ require:
 
 Rails:
   Enabled: true
+
+# Disabled since it only applies to Rails 5. Reenable when we migrate our apps to Rails 5.
+# https://github.com/bbatsov/rubocop/issues/3629
+Rails/HttpPositionalArguments:
+  Enabled: false
