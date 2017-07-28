@@ -52,10 +52,10 @@ Style/RedundantReturn:
 Style/GuardClause:
   Enabled: false
 
-Style/IndentHash:
+Layout/IndentHash:
   EnforcedStyle: consistent
 
-Style/IndentArray:
+Layout/IndentArray:
   EnforcedStyle: consistent
 
 Metrics/ClassLength:
@@ -70,10 +70,10 @@ Style/NegatedIf:
 Style/DefWithParentheses:
   Enabled: false
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
 Style/SingleLineBlockParams:
