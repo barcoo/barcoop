@@ -91,3 +91,14 @@ CaseIndentation:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+# Creating an array for just two comparisions is just too much of an
+# overhead and also not very readable. Unfortunately there's no setting
+# for how many repetitions are allowed
+Style/MultipleComparison:
+  Enabled: false
+
+# -> do / end just looks silly and lambda do / end is too verbose or
+# looks inconsistent with single line lambdas close by
+Style/Lambda:
+  Enabled: false
