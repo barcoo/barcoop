@@ -27,6 +27,11 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   Max: 500
 
+Metrics/ModuleLength:
+  Enabled: true
+  Exclude:
+    - 'test/factories/**/*'
+
 Metrics/AbcSize:
   # The ABC size is a calculated magnitude, so this number can be a Fixnum or a Float.
   # http://c2.com/cgi/wiki?AbcMetric
