@@ -2,6 +2,7 @@ inherit_from:
   - rubocop.yml
 
 require:
+  - rubocop-rails
   - barcoop/cop/barcoo/avoid_rails_env.rb
   - barcoop/cop/barcoo/avoid_fixtures.rb
 

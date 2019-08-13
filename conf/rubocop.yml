@@ -32,10 +32,8 @@ Metrics/MethodLength:
   Max: 40
 
 Metrics/ModuleLength:
-  Max: 500
-
-Metrics/ModuleLength:
   Enabled: true
+  Max: 500
   Exclude:
     - 'test/factories/**/*'
 
@@ -64,10 +62,10 @@ Style/RedundantReturn:
 Style/GuardClause:
   Enabled: false
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 Metrics/ClassLength:
@@ -94,15 +92,12 @@ Style/SingleLineBlockParams:
 Style/FrozenStringLiteralComment:
   Enabled: true
 
-Lint/EndAlignment:
+Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
 CaseIndentation:
   EnforcedStyle: end
   IndentOneStep: false
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
 
 # Creating an array for just two comparisions is just too much of an
 # overhead and also not very readable. Unfortunately there's no setting
