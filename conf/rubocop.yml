@@ -86,6 +86,9 @@ Layout/MultilineMethodCallIndentation:
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
+Layout/AlignArguments:
+  EnforcedStyle: with_fixed_indentation
+
 Style/SingleLineBlockParams:
   Enabled: false
 
