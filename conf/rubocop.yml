@@ -70,7 +70,10 @@ Layout/IndentFirstArrayElement:
 
 Metrics/ClassLength:
   Max: 200
-
+  
+Style/IfUnlessModifier:
+  Enabled: false
+  
 Style/RedundantSelf:
   Enabled: false
 
